@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cicd-intro"
+version = "0.1.0"
+description = ""
+authors = ["Genevieve <awavieve@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cicd_intro"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+pytest = "^7.4.4"
+requests-mock = "^1.11.0"
+flake8 = "^7.0.0"
+flask = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
